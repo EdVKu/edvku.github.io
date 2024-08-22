@@ -21,7 +21,7 @@ Resulta que este juego puede ayudar a explicar un fenómeno físico fundamental.
 Esta ecuación puedes verla en el currículum de física de muchos programas de bachillerato enfocados en ciencias naturales, y nadie realmente te explica de dónde viene, ni cómo se supone que se obtiene a partir de cosas que se agitan rítmicamente en un medio. Todo es muy confuso pero espero que salgas de esta lectura con una nueva perspectiva, y nuevo aprecio, a la ecuación que te presenté. Resulta que Isaac, en su alucinación provocada por su cerebro no queriendo morir, se enfrenta a monstruos, que ataca aventándoles lágrimas que emite de manera periódica (luego de una cantidad constante de segundos de expulsar una lágrima, expulsa otra), la cual viaja a velocidad constante la mayoría de las veces (a veces expulsa un chorro de fluido no específico o láseres, que viajan a velocidades cercanas a la de la luz). Para el ejercicio que les propondré hacer, utilizaremos la iteración más simple de su mecanismo de defensa: Las lágrimas que saca periódicamente.
 
 ~~~
-    <img src="/assets/isaaccorto.jpg" height="300" class="main-picture" />
+    <img src="/assets/isaaccorto.jpg" height="300" class="fig1" />
     <p>
 <i>Isaac llorando mientras se acerca a sus lagrimas</i>
     </p>
@@ -29,7 +29,15 @@ Esta ecuación puedes verla en el currículum de física de muchos programas de 
 ~~~
 
 ~~~
-    <img src="/assets/isaaclargo.jpg" height="300" class="fig2" />
+    <img src="/assets/isaaclargo.jpg" height="300" class="fig1" />
+    <p>
+<i>Isaac llorando mientras se aleja de sus lagrimas</i>
+    </p>
+
+~~~
+
+~~~
+    <img src="/assets/isaacnormal.jpg" height="300" class="fig2" />
     <p>
 <i>Isaac quieto mientras llora</i>
     </p>
