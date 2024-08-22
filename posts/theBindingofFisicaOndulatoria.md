@@ -23,7 +23,7 @@ Esta ecuación puedes verla en el currículum de física de muchos programas de 
 ~~~
     <img src="/assets/isaaccorto.jpg" height="300" class="fig1" />
     <p>
-<i>Isaac llorando mientras se acerca a sus lagrimas</i>
+<i>Isaac llorando mientras se acerca a sus lagrimas.</i>
     </p>
 
 ~~~
@@ -31,7 +31,7 @@ Esta ecuación puedes verla en el currículum de física de muchos programas de 
 ~~~
     <img src="/assets/isaaclargo.jpg" height="300" class="fig1" />
     <p>
-<i>Isaac llorando mientras se aleja de sus lagrimas</i>
+<i>Isaac llorando mientras se aleja de sus lagrimas.</i>
     </p>
 
 ~~~
@@ -39,7 +39,7 @@ Esta ecuación puedes verla en el currículum de física de muchos programas de 
 ~~~
     <img src="/assets/isaacnormal.jpg" height="300" class="fig2" />
     <p>
-<i>Isaac quieto mientras llora</i>
+<i>Isaac quieto mientras llora.</i>
     </p>
 
 ~~~
