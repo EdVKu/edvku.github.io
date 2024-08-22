@@ -13,7 +13,7 @@
     </title>
     <link> https://tlienart.github.io/FranklinTemplates.jl/ </link>
     <description>
-      <![CDATA[  Example website using Franklin  ]]>
+      <![CDATA[  Sitio web hecho en/Website made using Franklin  ]]>
     </description>
     <atom:link
       href="https://tlienart.github.io/FranklinTemplates.jl/feed.xml"
@@ -35,7 +35,7 @@
   
   
   <atom:author>
-    <atom:name>Septimia Zenobia</atom:name>
+    <atom:name>Eduardo Vazquez Kuri</atom:name>
   </atom:author>
         
 </item>
@@ -54,7 +54,7 @@
   
   
   <atom:author>
-    <atom:name>Septimia Zenobia</atom:name>
+    <atom:name>Eduardo Vazquez Kuri</atom:name>
   </atom:author>
         
 </item>
