@@ -26,13 +26,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/posts/theBindingofFisicaOndulatoria/index.html</loc>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/posts/odioSpotify/index.html</loc>
     <lastmod>2024-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://tlienart.github.io/FranklinTemplates.jl/index.html</loc>
+    <lastmod>2024-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/posts/theBindingofFisicaOndulatoria/index.html</loc>
     <lastmod>2024-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
