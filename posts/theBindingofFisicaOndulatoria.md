@@ -1,6 +1,6 @@
 +++
 title = "The Binding of Física Ondulatoria"
-tags = ["fisica"]
+tags = ["fisica", "blog"]
 +++
 
 # The Binding of Física Ondulatoria

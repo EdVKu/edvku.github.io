@@ -8,6 +8,6 @@ tags = ["videojuegos"]
 
 No tengo dónde poner esto si me quieres contratar no veas esto
 
-* BR93 DR65
+* BR93 DR6S
 
 Gran seed. Recomiendo para runs con Cain o Azazel porque vuela.
