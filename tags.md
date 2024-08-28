@@ -6,4 +6,5 @@ title = "Tags"
 * [`blog`](/tag/blog/)
 * [`dinero`](/tag/dinero/)
 * [`videojuegos`](/tag/videojuegos/)
+* [`personal`](/tag/personal/)
 

@@ -8,3 +8,5 @@ tags = ["syntax", "code"]
 +++
 
 * [Aquí hablo del efecto Doppler](/../posts/theBindingofFisicaOndulatoria)
+<!-- * [Aquí expreso mi opinión sosegada de Spotify](/../posts/odioSpotify) -->
+* [Aquí explico por qué creo que seré el mejor padre del mundo](/../posts/amor)
