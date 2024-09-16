@@ -8,6 +8,8 @@ rss_pubdate = Date(2024, 8, 22)
 tags = ["dinero"]
 +++
 
+# Dinero
+
 Si quieres darme dinero puedes acceder a mi Pay Pal:
 
 * paypal.me/VKur13
