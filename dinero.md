@@ -12,4 +12,4 @@ tags = ["dinero"]
 
 Si quieres darme dinero puedes acceder a mi Pay Pal:
 
-* paypal.me/VKur13
+* (AQUI)[https://www.paypal.me/VKur13]
