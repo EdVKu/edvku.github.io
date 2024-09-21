@@ -10,6 +10,4 @@ tags = ["dinero"]
 
 # Dinero
 
-Si quieres darme dinero puedes acceder a mi Pay Pal:
-
-* (AQUI)[https://www.paypal.me/VKur13]
+Si quieres darme dinero puedes acceder a mi Pay Pal [AQUI MISMO BUENAS TARDES](https://www.paypal.me/VKur13)
