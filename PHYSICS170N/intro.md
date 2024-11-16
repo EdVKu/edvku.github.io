@@ -1,3 +1,8 @@
++++
+title = "intro"
+author = "Eduardo Vázquez Kuri"
+tags = ["fisica"]
++++
 # Qué es esto
 
 Aquí estarán todas las notas que tomé en mi clase de física computacional:
