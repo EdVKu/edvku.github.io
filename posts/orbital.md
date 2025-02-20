@@ -16,21 +16,21 @@ Tienes dos objetos con masas $M_1$, $M_2$ que se mueven siguiendo vectores de di
 Vamos a simplificar algunas cosas antes de continuar. Para empezar, tenemos que agregar lo que antes mencioné, la conservación del momento lineal y del momento angular. Esto es:
 
 \begin{equation} 
-    \vec{r_1}M_1 + \vec{r_2}M_2= 0
+\vec{r_1}M_1 + \vec{r_2}M_2= 0
 \end{equation}
 
 \begin{equation}
-    \mu(\vec{r} \times \dot{\vec{r}})= L
+\mu(\vec{r} \times \dot{\vec{r}})= L
 \end{equation}
 
 Agregué dos nuevas variables, $\mu,\ \vec{r}$, las cuales defino como:
 
 \begin{equation}
-    \frac{1}{\mu} = \sum_{i=1}^2 \frac{1}{M_i}
+\frac{1}{\mu} = \sum_{i=1}^2 \frac{1}{M_i}
 \end{equation}
 
 \begin{equation}
-    \vec{r} = \vec{r_1} - \vec{r_2}
+\vec{r} = \vec{r_1} - \vec{r_2}
 \end{equation}
 
 Y usaremos en un momento. Ahora regresemos a la ecuación 1. Reorganizandola un poco, podemos obtener $\vec{r_2}$ en términos de $\vec{r_1}$ o viceversa. Si usamos también la ecuación 4 obtenemos definiciones para $\vec{r_1},\ \vec{r_2}$ en términos de $\vec{r}$:
