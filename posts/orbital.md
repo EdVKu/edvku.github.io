@@ -36,35 +36,33 @@ Agregué dos nuevas variables, $\mu,\ \vec{r}$, las cuales defino como:
 Y usaremos en un momento. Ahora regresemos a la ecuación 1. Reorganizandola un poco, podemos obtener $\vec{r_2}$ en términos de $\vec{r_1}$ o viceversa. Si usamos también la ecuación 4 obtenemos definiciones para $\vec{r_1},\ \vec{r_2}$ en términos de $\vec{r}$:
 
 \begin{equation}
-    \vec{r_1} = \frac{M_2}{M_1 + M_2}\vec{r}
+\vec{r_1} = \frac{M_2}{M_1 + M_2}\vec{r}
 \end{equation}
 
 \begin{equation}
-    \vec{r_2} = -\frac{M_1}{M_1 + M_2}\vec{r}
+\vec{r_2} = -\frac{M_1}{M_1 + M_2}\vec{r}
 \end{equation}
 
 Si asumimos que todas las masas que usaremos se quedan donde están, obtendremos descripciones para las velocidades de ambos cuerpos en términos de este nuevo vector $\vec{r}$. Si además usamos la ecuación 3 obtenemos que las ecuaciones 5 y 6 se pueden escribir como:
 
 \begin{equation}
-    \vec{r_1} = \frac{\mu}{M_1}\vec{r}
+\vec{r_1} = \frac{\mu}{M_1}\vec{r}
 \end{equation}
 
 \begin{equation}
-    \vec{r_2} = -\frac{\mu}{M_2}\vec{r}
+\vec{r_2} = -\frac{\mu}{M_2}\vec{r}
 \end{equation}
 
 Usaremos algo llamado **Lagrangiano** para obtener las ecuaciones de movimiento. Este es definido para este caso particular como:
 
 \begin{equation}
-    \mathcal{L}(\vec{r_1},\vec{r_2},\dot{\vec{r_1}},\dot{\vec{r_2}},t) = \frac{M_1}{2}\left(\dot{\vec{r_1}}^2\right) + \frac{M_2}{2}\left(\dot{\vec{r_2}}^2\right) +
-     \frac{GM_1M_2}{\vert\vec{r_1}-\vec{r_2}\vert}
+\mathcal{L}(\vec{r_1},\vec{r_2},\dot{\vec{r_1}},\dot{\vec{r_2}},t) = \frac{M_1}{2}\left(\dot{\vec{r_1}}^2\right) + \frac{M_2}{2}\left(\dot{\vec{r_2}}^2\right) + \frac{GM_1M_2}{\vert\vec{r_1}-\vec{r_2}\vert}
 \end{equation}
 
 Que podemos reescribir como:
 
 \begin{equation}
-    \mathcal{L}(\vec{r},\dot{\vec{r}},t) = \frac{\mu}{2}\left(\dot{\vec{r}}^2\right) +
-     \frac{G\mu(M_1+M_2)}{\vert\vec{r}\vert}
+\mathcal{L}(\vec{r},\dot{\vec{r}},t) = \frac{\mu}{2}\left(\dot{\vec{r}}^2\right) + \frac{G\mu(M_1+M_2)}{\vert\vec{r}\vert}
 \end{equation}
 
 Muy bonito. Antes de empezar a derivar cosas vamos a definir qué coordenadas nos convendría usar. No le pienses mucho ya hice eso por ti vamos a usar coordenadas esféricas aplicadas a un caso particular que surge de una de nuestras condiciones iniciales.
