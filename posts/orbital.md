@@ -15,57 +15,57 @@ Tienes dos objetos con masas $M_1$, $M_2$ que se mueven siguiendo vectores de di
 
 Vamos a simplificar algunas cosas antes de continuar. Para empezar, tenemos que agregar lo que antes mencioné, la conservación del momento lineal y del momento angular. Esto es:
 
-$\begin{equation} 
-    \vec{r_1}M_1 + \vec{r_2}M_2= 0\\ 
-\end{equation}$
+\begin{equation} 
+    \vec{r_1}M_1 + \vec{r_2}M_2= 0
+\end{equation}
 
-$\begin{equation}
-    \mu(\vec{r} \times \dot{\vec{r}})= L\\
-\end{equation}$
+\begin{equation}
+    \mu(\vec{r} \times \dot{\vec{r}})= L
+\end{equation}
 
 Agregué dos nuevas variables, $\mu,\ \vec{r}$, las cuales defino como:
 
-$\begin{equation}
+\begin{equation}
     \frac{1}{\mu} = \sum_{i=1}^2 \frac{1}{M_i}
-\end{equation}$
+\end{equation}
 
-$\begin{equation}
+\begin{equation}
     \vec{r} = \vec{r_1} - \vec{r_2}
-\end{equation}$
+\end{equation}
 
 Y usaremos en un momento. Ahora regresemos a la ecuación 1. Reorganizandola un poco, podemos obtener $\vec{r_2}$ en términos de $\vec{r_1}$ o viceversa. Si usamos también la ecuación 4 obtenemos definiciones para $\vec{r_1},\ \vec{r_2}$ en términos de $\vec{r}$:
 
-$\begin{equation}
+\begin{equation}
     \vec{r_1} = \frac{M_2}{M_1 + M_2}\vec{r}
-\end{equation}$
+\end{equation}
 
-$\begin{equation}
+\begin{equation}
     \vec{r_2} = -\frac{M_1}{M_1 + M_2}\vec{r}
-\end{equation}$
+\end{equation}
 
 Si asumimos que todas las masas que usaremos se quedan donde están, obtendremos descripciones para las velocidades de ambos cuerpos en términos de este nuevo vector $\vec{r}$. Si además usamos la ecuación 3 obtenemos que las ecuaciones 5 y 6 se pueden escribir como:
 
-$\begin{equation}
+\begin{equation}
     \vec{r_1} = \frac{\mu}{M_1}\vec{r}
-\end{equation}$
+\end{equation}
 
-$\begin{equation}
+\begin{equation}
     \vec{r_2} = -\frac{\mu}{M_2}\vec{r}
-\end{equation}$
+\end{equation}
 
 Usaremos algo llamado **Lagrangiano** para obtener las ecuaciones de movimiento. Este es definido para este caso particular como:
 
-$\begin{equation}
+\begin{equation}
     \mathcal{L}(\vec{r_1},\vec{r_2},\dot{\vec{r_1}},\dot{\vec{r_2}},t) = \frac{M_1}{2}\left(\dot{\vec{r_1}}^2\right) + \frac{M_2}{2}\left(\dot{\vec{r_2}}^2\right) +
      \frac{GM_1M_2}{\vert\vec{r_1}-\vec{r_2}\vert}
-\end{equation}$
+\end{equation}
 
 Que podemos reescribir como:
 
-$\begin{equation}
+\begin{equation}
     \mathcal{L}(\vec{r},\dot{\vec{r}},t) = \frac{\mu}{2}\left(\dot{\vec{r}}^2\right) +
      \frac{G\mu(M_1+M_2)}{\vert\vec{r}\vert}
-\end{equation}$
+\end{equation}
 
 Muy bonito. Antes de empezar a derivar cosas vamos a definir qué coordenadas nos convendría usar. No le pienses mucho ya hice eso por ti vamos a usar coordenadas esféricas aplicadas a un caso particular que surge de una de nuestras condiciones iniciales.
 
