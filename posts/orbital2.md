@@ -3,6 +3,6 @@ title = "Cómo simular dos cuerpos en el espacio pt.2"
 tags = ["fisica", "blog"]
 +++
 
-# HOLA SI VES ESTO AUN NO HE IMPLEMENTADO NADA PERDON
+# La implementación en computadora
 
 :D
