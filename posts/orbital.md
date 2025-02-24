@@ -93,7 +93,7 @@ Así pues, obtenemos dos grados de libertad, $\left(\rho,\ \theta\right)$. Aplic
     \mu \frac{d}{dt}(\rho^2\dot{\theta}) = 0
 \end{equation}
 \begin{equation}
-    \ddot{\rho} = \mu\rho\dot{\theta}^2 -\frac{G(M_1 + M_2)}{\rho^2}
+    \ddot{\rho} = \mu\rho\dot{\theta}^2 -\frac{G\mu(M_1 + M_2)}{\rho^2}
 \end{equation}
 
 La ecuación 13 nos brinda la información de que $\mu \rho^2\dot{\theta} \equiv L$ es un valor constante respecto al tiempo, por lo que podemos reescribir a $\dot{\theta}^2$ como:
@@ -105,7 +105,7 @@ La ecuación 13 nos brinda la información de que $\mu \rho^2\dot{\theta} \equiv
 Sustituyendo este valor en la ecuación 14 tenemos:
 
 \begin{equation}
-    \ddot{\rho} = \frac{L^2}{\mu^2\rho^3} -\frac{G(M_1 + M_2)}{\rho^2}
+    \ddot{\rho} = \frac{L^2}{\mu^2\rho^3} -\frac{G\mu(M_1 + M_2)}{\rho^2}
 \end{equation}
 
 ¡Sorpresa! Obtuvimos una descripción para $\ddot{\rho}$ en términos de $\rho$ solamente. 
