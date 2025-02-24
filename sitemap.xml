@@ -50,6 +50,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/posts/orbital2/index.html</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://tlienart.github.io/FranklinTemplates.jl/dinero/index.html</loc>
     <lastmod>2025-02-24</lastmod>
     <changefreq>monthly</changefreq>
