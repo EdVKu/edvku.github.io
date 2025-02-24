@@ -20,10 +20,10 @@ Vamos a simplificar algunas cosas antes de continuar. Para empezar, tenemos que 
 \end{equation}
 
 \begin{equation}
-\mu(\vec{r} \times \dot{\vec{r}})= L
+\mu(\vec{r} \times \dot{\vec{r}})= \vec{L}
 \end{equation}
 
-Agregué dos nuevas variables, $\mu,\ \vec{r}$, las cuales defino como:
+Con $\vec{L}$ un valor constante. Agregué dos nuevas variables, $\mu,\ \vec{r}$, las cuales defino como:
 
 \begin{equation}
 \frac{1}{\mu} = \sum_{i=1}^2 \frac{1}{M_i}
@@ -69,4 +69,52 @@ Muy bonito. Antes de empezar a derivar cosas vamos a definir qué coordenadas no
 
 Cuando asumimos que nuestro sistema tiene un solo momento angular esencialmente nos permitimos asumir que todo el movimiento ocurria en un plano, o lo que es lo mismo, que $\vec{r_1},\ \vec{r_2},\ \vec{r}$ pueden ser descritas asumiendo que una de las tres dimensiones es constante.
 
-Ahora usando [las ecuaciones Euler-Lagrange](https://academia-lab.com/enciclopedia/ecuacion-de-euler-lagrange/) obtendremos las ecuaciones de movimiento que necesitamos.
+Gracias a eso, podemos usar coordenadas cilindricas $(\rho, \theta, z)$ para describir el movimiento de los dos cuerpos, de la siguiente manera:
+
+\begin{align}
+    \vec{r_1} &=\frac{\mu}{M_1} \rho \left(\cos(\theta) \hat{i} + \sin(\theta) \hat{j} + \frac{z}{\rho} \hat{k}\right)\\
+    \vec{r_2} &= -\frac{\mu}{M_2} \rho \left(\cos(\theta) \hat{i} + \sin(\theta) \hat{j} + + \frac{z}{\rho} \hat{k} \right)
+\end{align}
+
+Una vez hecho esto, podremos obtener el Lagrangiano en coordenadas cilíndricas, sabiendo que $z$ es constante:
+
+\begin{equation}
+    \mathcal{L}({\rho},\dot{\rho},{\theta},\dot{\theta},t) = \mu\frac{\rho^2\dot{\theta}^2 + \dot{\rho}^2}{2} + \frac{G\mu(M_1 + M_2)}{\rho}
+\end{equation}
+
+Notamos que efectivamente el sistema es reducido a uno de dos dimensiones. Ahora usando [las ecuaciones Euler-Lagrange](https://academia-lab.com/enciclopedia/ecuacion-de-euler-lagrange/) obtendremos las ecuaciones de movimiento que necesitamos:
+
+Este sistema es de $3k - n$ grados de libertad, variables independientes (que podemos manipular sin afectar a otras), donde $k$ es el número de cuerpos y $n$ es el número de restricciones que le pusimos al sistema. 
+
+$k = 2$, así que antes de las restricciones tenemos 6 grados de libertad - tres coordenadas espaciales para cada cuerpo. Al restringir el movimiento cuando agregamos las ecuaciones 1 y 4, *perdemos* 4 grados de libertad, al tener dos ecuaciones que relacionan a los dos cuerpos.
+
+Así pues, obtenemos dos grados de libertad, $\left(\rho,\ \theta\right)$. Aplicaremos [las ecuaciones Euler-Lagrange](https://academia-lab.com/enciclopedia/ecuacion-de-euler-lagrange/) a estos dos grados de libertad que nos sobran:
+\begin{equation}
+    \mu \frac{d}{dt}(\rho^2\dot{\theta}) = 0
+\end{equation}
+\begin{equation}
+    \ddot{\rho} = \mu\rho\dot{\theta}^2 -\frac{G(M_1 + M_2)}{\rho^2}
+\end{equation}
+
+La ecuación 13 nos brinda la información de que $\mu \rho^2\dot{\theta} \equiv L$ es un valor constante respecto al tiempo, por lo que podemos reescribir a $\dot{\theta}^2$ como:
+
+\begin{equation}
+    \dot{\theta}^2 = \frac{L^2}{\mu^2 \rho^4}
+\end{equation}
+
+Sustituyendo este valor en la ecuación 14 tenemos:
+
+\begin{equation}
+    \ddot{\rho} = \frac{L^2}{\mu^2\rho^3} -\frac{G(M_1 + M_2)}{\rho^2}
+\end{equation}
+
+¡Sorpresa! Obtuvimos una descripción para $\ddot{\rho}$ en términos de $\rho$ solamente. 
+
+Ahora buscamos $\ddot{\theta}$:
+
+
+\begin{equation}
+    \ddot{\theta} = \frac{-2L}{\mu \rho^3}\dot{\rho}
+\end{equation}
+
+Notamos que vamos a necesitar obtener el valor para $\rho,\  \dot{\rho}$ en nuestro programa. Esto lo haremos usando un *Método Simpléctico* de solución de ecuaciones diferenciales de segundo orden, el cual veremos [aquí](/orbital2.md).

@@ -4,3 +4,5 @@ tags = ["fisica", "blog"]
 +++
 
 # HOLA SI VES ESTO AUN NO HE IMPLEMENTADO NADA PERDON
+
+:D
