@@ -9,7 +9,7 @@ Hola de nuevo. Llevo casi 4 meses sin actualizar este que es mi blog porque no h
 
 # Las Matemáticas
 
-Vamos a usar matemáticas, para variar. No espero que entiendan todo, pueden saltarse a [cuando me pongo a programar](/orbital2.md) sin que se enteren de nada, no se preocupen. Lo que haré es presentar las condiciones que mencioné arriba en forma de ecuaciones, aplicar derivadas y obtener **ecuaciones de movimiento**.
+Vamos a usar matemáticas, para variar. No espero que entiendan todo, pueden saltarse a [cuando me pongo a programar](../orbital2) sin que se enteren de nada, no se preocupen. Lo que haré es presentar las condiciones que mencioné arriba en forma de ecuaciones, aplicar derivadas y obtener **ecuaciones de movimiento**.
 
 Tienes dos objetos con masas $M_1$, $M_2$ que se mueven siguiendo vectores de dirección $\vec{r_1} = (x_1(t),y_1(t),z_1(t))$, $\vec{r_2} = (x_2(t),y_2(t),z_2(t))$, las cuales son funciones que dependen del tiempo que no conocemos. Lo que al final obtendremos son ecuaciones para sus _aceleraciones_, y le pediremos muy amablemente a la computadora que nos brinde soluciones usando estas ecuaciones, y valores iniciales (también llamados _valores de frontera_). Si no son amables, su código no va a correr y van a tener $1923012380$ años de código mal optimizado.
 
@@ -117,4 +117,4 @@ Ahora buscamos $\ddot{\theta}$:
     \ddot{\theta} = \frac{-2L}{\mu \rho^3}\dot{\rho}
 \end{equation}
 
-Notamos que vamos a necesitar obtener el valor para $\rho,\  \dot{\rho}$ en nuestro programa. Esto lo haremos usando un *Método Simpléctico* de solución de ecuaciones diferenciales de segundo orden, el cual veremos [aquí](/orbital2.md).
+Notamos que vamos a necesitar obtener el valor para $\rho,\  \dot{\rho}$ en nuestro programa. Esto lo haremos usando un *Método Simpléctico* de solución de ecuaciones diferenciales de segundo orden, el cual veremos [aquí](../orbital2).
