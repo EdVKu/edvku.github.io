@@ -49,7 +49,7 @@ tendriamos que obtener este *mallado* de la siguiente manera:
 \end{array}
 \end{equation}
 
-para $v_{\rho}$ y $q = \rho$. A partir de lo anterior podemos obtener $v_{n+\frac{1}{2}},\ q_{n+1},\ v_{n+1}$ mediante las ecuaciones [^1]:
+para $v_{\rho}$ y $q = \rho$. A partir de lo anterior podemos obtener $v_{n+\frac{1}{2}},\ q_{n+1},\ v_{n+1}$ mediante las ecuaciones:[^1]
 
 \begin{align}
     v_{n+\frac{1}{2}} &= v_n + \frac{h}{2}f(q_n)\\
@@ -57,6 +57,6 @@ para $v_{\rho}$ y $q = \rho$. A partir de lo anterior podemos obtener $v_{n+\fra
     v_{n+1} &= v_{n+\frac{1}{2}} + \frac{h}{2}f(q_{n+1})
 \end{align}
 
-Con eso debería de estar todo listo.
+Con eso debería de estar todo listo. Podemos ver [los resultados](../orbital3) a continuación.
 
-[^1]: Hairer E, Lubich C, Wanner G. *Geometric numerical integration illustrated by the Störmer–Verlet method*. Acta Numerica. 2003;12:399-450. doi:10.1017/S0962492902000144
+[^1]: Hairer E, Lubich C, Wanner G. Geometric numerical integration illustrated by the Störmer–Verlet method. Acta Numerica. 2003;12:399-450. doi:10.1017/S0962492902000144
