@@ -12,4 +12,5 @@ Aquí estarán todas las notas que tomé en mi clase de física computacional:
 * [Clase 3](../Class3)
 * [Clase 4](../Class4)
 * [Clase 5](../Class5)
+* [Clase 6](../Class6)
 * [Clase 7](../Class7)
