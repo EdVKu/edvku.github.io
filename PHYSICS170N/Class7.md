@@ -1,3 +1,9 @@
++++
+title = "Class 7"
+author = "Eduardo Vázquez Kuri"
+tags = ["fisica"]
++++
+
 # Computational Complexity
 
 ## Sorting Algorithms

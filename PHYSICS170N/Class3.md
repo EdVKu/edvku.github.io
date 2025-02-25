@@ -1,3 +1,9 @@
++++
+title = "Class 3"
+author = "Eduardo Vázquez Kuri"
+tags = ["fisica"]
++++
+
 # Solving Ordinary Differential Equation (ODEs):
 
 **ODEs:** Single variable equations that involve an arbitrary amount of derivatives of that function wrt that variable.

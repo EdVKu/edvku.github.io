@@ -1,3 +1,9 @@
++++
+title = "Class 2"
+author = "Eduardo Vázquez Kuri"
+tags = ["fisica"]
++++
+
 Quantum computing books
 
 * Nielsen & Chuang: _Quantum Computation & Quantum Information_

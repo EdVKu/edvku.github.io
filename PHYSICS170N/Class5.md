@@ -1,3 +1,9 @@
++++
+title = "Class 5"
+author = "Eduardo Vázquez Kuri"
+tags = ["fisica"]
++++
+
 # Quantum Harmonic Oscillator
 
 ## Schrödinger's Equation
