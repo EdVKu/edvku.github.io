@@ -96,7 +96,13 @@ Así pues, obtenemos dos grados de libertad, $\left(\rho,\ \theta\right)$. Aplic
     \ddot{\rho} = \rho\dot{\theta}^2 -\frac{G(M_1 + M_2)}{\rho^2}
 \end{equation}
 
-La ecuación 13 nos brinda la información de que $\mu \rho^2\dot{\theta} \equiv L$ es un valor constante respecto al tiempo, por lo que podemos reescribir a $\dot{\theta}^2$ como:
+La ecuación 13 nos brinda la información de que 
+
+\begin{equation}
+    \mu \rho^2\dot{\theta} \equiv L
+\end{equation} 
+
+es un valor constante respecto al tiempo, por lo que podemos reescribir a $\dot{\theta}^2$ como:
 
 \begin{equation}
     \dot{\theta}^2 = \frac{L^2}{\mu^2 \rho^4}
