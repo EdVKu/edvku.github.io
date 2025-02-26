@@ -41,15 +41,7 @@ Según el
 
 ### Método Stormer-Verlet
 
-tendriamos que obtener este *mallado* de la siguiente manera:
-
-\begin{equation}
-\begin{array}{ccc}
-    v_n = \frac{q_{n+1}-q_{n-1}}{2h} & v_{n-\frac{1}{2}} = \frac{q_{n}-q_{n-1}}{h} & q_{n-\frac{1}{2}} = \frac{q_{n}+q_{n-1}}{2}   \\
-\end{array}
-\end{equation}
-
-para $v_{\rho}$ y $q = \rho$. A partir de lo anterior podemos obtener $v_{n+\frac{1}{2}},\ q_{n+1},\ v_{n+1}$ mediante las ecuaciones:[^1]
+podemos obtener $v_{n+\frac{1}{2}},\ q_{n+1},\ v_{n+1}$ mediante las ecuaciones:[^1]
 
 \begin{align}
     v_{n+\frac{1}{2}} &= v_n + \frac{h}{2}f(q_n)\\
@@ -60,3 +52,5 @@ para $v_{\rho}$ y $q = \rho$. A partir de lo anterior podemos obtener $v_{n+\fra
 Con eso debería de estar todo listo. Podemos ver [los resultados](../orbital3) a continuación.
 
 [^1]: Hairer E, Lubich C, Wanner G. Geometric numerical integration illustrated by the Störmer–Verlet method. Acta Numerica. 2003;12:399-450. doi:10.1017/S0962492902000144
+
+
