@@ -10,7 +10,7 @@ M_2 = 1e10
 
 w, rho, rdo = 1e-3, 1e7, 0
 
-t, h, N = 0, 1e-5, 1e5
+t, h, N = 0, 1e-3, 1e5
 
 # constante gravitacional
 # (en m^3 kg^-1 s^-2)
@@ -42,8 +42,8 @@ end
 #so = [t, θ, ρ, ̇ρ]
 #son las condiciones iniciales para el sistema de dos cuerpos
 so = [t, 0, rho, rdo]
-xo, yo = xy(rho,0)
-s3 = [[xo, yo, t]]
+xyto = [xy(rho,0); t]
+s3 = xyto
 
 
 while t<h*(N)
@@ -57,7 +57,7 @@ while t<h*(N)
 
     global so = s2
     xyt = [xy(ρ_1,θ_1); t]
-    global s3 = [s3; [xyt]]
+    global s3 = [[s3]; [xyt]]
 end
 
 
