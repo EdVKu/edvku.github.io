@@ -41,12 +41,11 @@ Según el
 
 ### Método Stormer-Verlet
 
-podemos obtener $v_{n+\frac{1}{2}},\ q_{n+1},\ v_{n+1}$ mediante las ecuaciones:[^1]
+podemos obtener $q_{n+1},\ v_{n+1}$ mediante las ecuaciones:[^1]
 
 \begin{align}
-    v_{n+\frac{1}{2}} &= v_n + \frac{h}{2}f(q_n)\\
-    q_{n+1} &= q_n + h v_{n+\frac{1}{2}}\\
-    v_{n+1} &= v_{n+\frac{1}{2}} + \frac{h}{2}f(q_{n+1})
+    q_{n+1} &= 2q_n - q_{n-1} + \frac{h^2}{2} v_{n+\frac{1}{2}}\\
+    v_{n+1} &= \frac{q_{n+1}-q_{n-1}}{2h}
 \end{align}
 
 Con eso debería de estar todo listo. Podemos ver [los resultados](../orbital3) a continuación.
