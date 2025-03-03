@@ -50,6 +50,4 @@ podemos obtener $q_{n+1},\ v_{n+1}$ mediante las ecuaciones:[^1]
 
 Con eso debería de estar todo listo. Podemos ver [los resultados](../orbital3) a continuación.
 
-[^1]: Hairer E, Lubich C, Wanner G. Geometric numerical integration illustrated by the Störmer–Verlet method. Acta Numerica. 2003;12:399-450. doi:10.1017/S0962492902000144
-
-
+[^1]: Verlet, L. (1967). Computer" experiments" on classical fluids. I. Thermodynamical properties of Lennard-Jones molecules. Physical review, 159(1), 98.
