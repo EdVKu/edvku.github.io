@@ -1,6 +1,6 @@
 # Extraemos paquetes de visualización
 
-
+import Base.Math
 
 # masas de los cuerpos 
 # (en kg)
@@ -14,7 +14,7 @@ M_2 = 5.97e24
 
 w, rho, rdo = (2*pi)/(365.24), 1.5e11, 0
 
-t, h, N = 0, 1e-3, 365240
+t, h, N = 0, 1e-2, 3600
 
 # constante gravitacional
 # (en m^3 kg^-1 s^-2)
@@ -57,7 +57,7 @@ while t<h*(N)
     s = so 
     ls = last(s,2)
     ρ_1 = (2*ls[2][3] - ls[1][3] + rdd(ls[2][3])*h^2)
-    θ_1 = ls[2][2] + h*thd(ls[2][3])
+    θ_1 = mod2pi(ls[2][2] + h*thd(ls[2][3]))
     global t += h
     s2 = [ls[2],[t, θ_1, ρ_1]]
     xy2 = [[ls[2][1]; xy(ls[2][2], mu/M_1*ls[2][3])], [t; xy(θ_1, mu/M_1*ρ_1)]]
