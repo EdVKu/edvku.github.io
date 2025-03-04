@@ -7,10 +7,7 @@ tags = ["fisica", "blog"]
 
 Aquí habrán videos que muestran los resultados obtenidos al simular dos cuerpos que sienten su atracción gravitacional mutua.
    
-![la pagina de Julia no funciona](/ayuda.png)
-
-
-
+![la pagina de Julia no funciona](ayuda.png)
 
 Eventualmente. 
 
