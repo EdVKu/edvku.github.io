@@ -77,7 +77,7 @@ Quitamos las repeticiones rápidamente y nos quedamos con una lista con 33 eleme
 [[2, 4], [2, 0], [0, 4], [0, 0], [3, 3], [3, 1], [-1, 3], [-1, 1], [2, -4], [0, -4], [3, -1], [3, -3], [-1, -1], [-1, -3], [-2, 4], [-2, 0], [1, 3], [1, 1], [-3, 3], [-3, 1], [-2, -4], [1, -1], [1, -3], [-3, -1], [-3, -3], [4, 2], [4, 0], [0, 2], [4, -2], [0, -2], [-4, 2], [-4, 0], [-4, -2]]
 ```
 
-De aquí cuántos rectángulos únicos podemos extraer? Pues para saberlo sólo tenemos que obtener las áreas que forman cada *trayectoria*. Podemos ver que serán menos, ya de un vistazo. Exactamente van a ser 5 áreas únicas, por lo que de todas las 64 (luego 33) posibles formas de mover un caballo dos veces, vamos a poder extraer 5 rectángulos distinguibles entre sí. 
+De aquí cuántos rectángulos únicos podemos extraer? Pues para saberlo sólo tenemos que obtener las áreas que forman cada *trayectoria*. Podemos ver que serán menos, ya de un vistazo. Exactamente van a ser 5 áreas únicas, por lo que de todas las 64 (luego 33) posibles formas de mover un caballo dos veces, vamos a poder extraer 6 rectángulos distinguibles entre sí. 
 
 Esto nos dice que las otras 27 configuraciones van a brindar versiones rotadas, volteadas, etc de estos 6 rectángulos.
 
