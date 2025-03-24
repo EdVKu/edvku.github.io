@@ -3,16 +3,38 @@ title = "Cómo simular dos cuerpos en el espacio pt3"
 tags = ["fisica", "blog"]
 +++
 
-# Los Resultados
+# Antes de continuar
 
-Aquí habrán videos que muestran los resultados obtenidos al simular dos cuerpos que sienten su atracción gravitacional mutua.
+Me di cuenta que para la primera entrada de este proyecto dejé muchas cosas sin explicar. Aprovecho que logré despejar mi cabeza y me siento mejor en general para explicarlas:
 
-~~~
-    <img src="/assets/ayuda.png" height="300" alt = "la pagina de Julia no funciona" />  
-<p>
-    pero la pagina de Julia no funciona y estoy haciendo todo en Julia entonces no puedo descargar paquetes hasta que vuelva a funcionar la pagina de Julia. Asumo que eventualmente funcione. 
-</p>
-~~~
+## El plano orbital
 
-Puedes ver [aquí](https://juliapackages.com) si ya funciona. En caso afirmativo [mándame un correo](../../dinero)
-   
+Recordemos que habíamos establecido que, en el sistema de dos cuerpos:
+
+\begin{equation}
+    m\vec{r}\times \dot{\vec{r}} = \vec{L}
+\end{equation}
+
+Era una constante, y que se supone que esto generaba un plano respecto al vector director del centro de masas del sistema. Veamos por qué.
+
+Un resultado muy famoso de cálculo vectorial involucra dos vectores, $\vec{v},\ \vec{w}$, teniendo la relación:
+
+\begin{equation}
+    \vec{v} \dot \vec{v}\times\vec{w} = 0
+\end{equation}
+
+El por qué ya ha sido explicado por gente mucho más lista que yo entonces avancemos com la prueba de adeveras.
+
+Vamos a aplicar producto escalar entre $\vec{L}$ y $\vec{r}$. Usando la definición de $\vec{L}$ tenemos:
+
+\begin{align}
+    \vec{L} \dot \left(\vec{r}\right) &= m\vec{r} \dot \vec{r} \times  \dot{\vec{r}}  \\
+    &= 0\\
+\end{align}
+
+Esto nos brinda la ecuación $L_x x + L_y y + L_z z = 0$, con $L_{x,y,z}$ valores constantes. La anterior es la ecuación de un plano que emana del origen.
+
+## Las soluciones exactas de las ecuaciones respecto a $\ddot{\vec{r}}$
+
+Haciendo cambios de variable podemos obtener que la solución a la ecuación
+
