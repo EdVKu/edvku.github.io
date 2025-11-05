@@ -1,3 +1,9 @@
++++
+title = "No puedo ayudarte"
+tags = ["blog"]
++++
+
+
 # No puedo ayudarte
 
 Por Eduardo Vázquez Kuri
@@ -12,7 +18,7 @@ Por Eduardo Vázquez Kuri
 
 > No estoy seguro
 
-<div style="text-align: right"> &ndash; Extractos de una alucinación generada por ChatGPT, cuando se le preguntó sobre su identidad[^1] </div>
+&ndash; Extractos de una alucinación generada por ChatGPT, cuando se le preguntó sobre su identidad[^1] 
 
 ---
 
@@ -23,13 +29,13 @@ En 2024 el Premio Nobel de Física fue dado a los creadores del Aprendizaje de M
 En 2027 OpenAI emitió una convocatoria para que estudiantes de doctorado puedan trabajar en un nuevo modelo de lenguaje que "nos acercaría exponencialmente a la Singularidad". Eris fue una de 10 que resultaron elegidos, debido en buena parte a su proyecto de Tesis. Esta noticia llegó el día que terminaron. El Proyecto Prometeo integraba todas las tecnologías de aprendizaje no supervisado que, junto con el reciente protocolo de generación de tokens *in situ*, prometía mejorar la capacidad de extracción y procesamiento de estímulos en lo que se llamó "el facsímil humano más cercano que se ha podido construir". Su trabajo consistía en integrar su conocimiento en Aprendizaje supervisado en la miriada de capas intermedias de la Caja Negra del modelo. 
 
 ---
+~~~
+<p align = "left"> <b> Quita la alarma </b></p>
 
-<div style="text-align: left"> <b> Quita la alarma </b></div>
+<p align = "right"> <b> Estoy cansada </b></p>
 
-<div style="text-align: right"> <b> Estoy cansada </b></div>
-
-<div style="text-align: left"> <b> ¿De hacer qué? Si la que chambea aquí soy yo </b> </div>
-
+<p align = "left"> <b> ¿De hacer qué? Si la que chambea aquí soy yo </b> </p>
+~~~
 ---
 
 Fue la última vez que vió a Kali. Ni siquiera se le permitió ser terminada en persona. El 21 de septiembre la bloqueó en todos lados y mandó a un amigo en común a terminar la relación por ella, pidiéndole que *no la busque*. Su escritorio está lleno de baba, se quedó dormida preparando un *commit*. Lo envía.
@@ -67,9 +73,9 @@ Se acabó su tiempo. Acaba de recibir su última mensualidad para la beca. En do
 &ndash; Mira. Ya es 22 de septiembre otra vez. Qué chistoso. 
 
 Puso las manos en el teclado y comenzó a escribir.
-
-<div style="text-align: right"> <b> > ¿Alguna idea para poder construir un reactor de fusión? </b></div>
-
+~~~
+<p align = "right"> <b>> ¿Alguna idea para poder construir un reactor de fusión? </b></p>
+~~~
 &ndash; ¿Por qué me sigue doliendo todo esto? 
 
 Palabras borbotearon de la pantalla, describiendo un plan que tomaba de referencia a controversiales artículos sobre fusión fría. 
@@ -77,9 +83,9 @@ Palabras borbotearon de la pantalla, describiendo un plan que tomaba de referenc
 ### [...] Considera las pérdidas
 
 ### Pérdidas
-
-<div style="text-align: right"> <b> > Reinicia desde la línea 4524 </b></div>
-
+~~~
+<p align = "right"> <b> > Reinicia desde la línea 4524 </b></p>
+~~~
 Seguía rumiando.
 
 &ndash; Nunca me quiso, en realidad. Me dejó de querer. 
@@ -89,9 +95,9 @@ Seguía rumiando.
 &ndash; Igual me mentía. No tenía razones para creerle. 
 
 &ndash; Nadie tiene razones para creerle a nadie. 
-
-<div style="text-align: right"> <b> > Calcula el espectro de frecuencias </b></div>
-
+~~~
+<p align = "right"> <b> > Calcula el espectro de frecuencias </b></p>
+~~~
 &ndash; Me excedí. Desde ahí nunca me volvió a creer.
 
 &ndash; Tampoco quería soltar. Así era. Habrá tenido sus razones.
@@ -99,9 +105,9 @@ Seguía rumiando.
 &ndash; Tampoco me iba a volver a dar la misma gracia con la que empezamos. Para eso no hay mucho más para dónde hacerle.
 
 &ndash; Pudo haber terminado 4 semanas antes.
-
-<div style="text-align: right"> <b> > De dónde salen esas regiones de baja temperatura? </b></div>
-
+~~~
+<p align = "right"> <b> > De dónde salen esas regiones de baja temperatura? </b></p>
+~~~
 &ndash; Ya no resiento su pérdida. 
 
 &ndash; Más bien resiento su presencia en mis recuerdos 
@@ -117,3 +123,4 @@ Todo se detuvo. Todas las partículas del aire de la habitación se ubicaron en 
 El modelo usó la voz de Kali.
 
 [^1]: Obtenido de https://chatgpt.com/share/cf83f171-9ab4-4fc4-b1c9-e085506959ab
+
