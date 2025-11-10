@@ -12,3 +12,4 @@ tags = ["syntax", "code"]
 * [Aquí explico por qué creo que seré el mejor padre del mundo](/../posts/amor)
 * [Aquí escribo sobre movimientos de ajedrez](/../posts/Caballo)
 * [Aquí les dejo un cuento que escribí desde septiembre y no he querido que nadie (exceptuando algunas personas) lo vea](/../posts/no_puedo_ayudarte)
+* [Aquí les cuento mi experiencia aprendiendo a hacer alfarería](/../posts/alfareria)
