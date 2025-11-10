@@ -24,7 +24,7 @@ Y lo que me suele pasar simplemente es que *ya no me siento cómodo con comparti
 
 De vuelta a lo otro, sentía que, por mucho que me cautivaba su forma de ver el mundo, su conocimiento sobre todos los datos inservibles que sé (y más), la devoción que mostraba al aprendizaje y la propagación del conocimiento, sus gustos en manga, y sus ojazos, también la percibía como alguien hostil. Además, no podía evitar pensar que agosto y Bumble no eran la fecha ni el medio idóneo para buscar pareja luego de lo que me llegó a contar que había vivido. No era nadie para decirle qué hacer entonces nunca le dije nada. Pero en el fondo sabía que tenía que dejarla ir. 
 
-Como podrán imaginar, no fue fácil. Fue difícil, incluso. Tan difícil fue que no lo hice yo, nomás me comporté extremadamente raro. A la fecha no sé si realmente quiero saber de ella. Por mi bien sé que lo mejor es mantener la mayor distancia posible, pero de verdad me apena no habernos conocido en otro momento. Igual y para ella fui otro pendejo que tuvo el infortunio de conocer pero eso ya no me compete saber. Dos días despúes del incidente me inscribí a clases de alfarería. 
+Como podrán imaginar, no fue fácil. Fue difícil, incluso. Tan difícil fue que no lo hice yo, nomás me comporté como un enfermo, buscando cualquier indicio en su actuar para asumir que no quería verme. A la fecha no sé si realmente quiero saber de ella. Por mi bien sé que lo mejor es mantener la mayor distancia posible, pero de verdad me apena no habernos conocido en otro momento. Igual y para ella fui otro pendejo que tuvo el infortunio de conocer pero eso ya no me compete saber. Dos días despúes del incidente me inscribí a clases de alfarería. 
 
 ## Clases de alfarería
 
