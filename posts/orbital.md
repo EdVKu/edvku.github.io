@@ -56,13 +56,13 @@ Si asumimos que todas las masas que usaremos se quedan donde están, obtendremos
 Usaremos algo llamado **Lagrangiano** para obtener las ecuaciones de movimiento. Este es definido para este caso particular como:
 
 \begin{equation}
-\mathcal{L}(\vec{r_1},\vec{r_2},\dot{\vec{r_1}},\dot{\vec{r_2}},t) = \frac{M_1}{2}\left(\dot{\vec{r_1}}^2\right) + \frac{M_2}{2}\left(\dot{\vec{r_2}}^2\right) + \frac{GM_1M_2}{\vert\vec{r_1}-\vec{r_2}\vert}
+\mathcal{L}(\vec{r_1},\vec{r_2},\dot{\vec{r_1}},\dot{\vec{r_2}},t) = \frac{M_1}{2}\left(\dot{\vec{r_1}}^2\right) + \frac{M_2}{2}\left(\dot{\vec{r_2}}^2\right) +\frac{GM_1M_2}{\vert\vec{r_1}-\vec{r_2}\vert}
 \end{equation}
 
 Que podemos reescribir como:
 
 \begin{equation}
-\mathcal{L}(\vec{r},\dot{\vec{r}},t) = \frac{\mu}{2}\left(\dot{\vec{r}}^2\right) + \frac{G\mu(M_1+M_2)}{\vert\vec{r}\vert}
+\mathcal{L}(\vec{r},\dot{\vec{r}},t) = \frac{\mu}{2}\left(\dot{\vec{r}}^2\right) +\frac{G\mu(M_1+M_2)}{\vert\vec{r}\vert}
 \end{equation}
 
 Muy bonito. Antes de empezar a derivar cosas vamos a definir qué coordenadas nos convendría usar. No le pienses mucho ya hice eso por ti vamos a usar coordenadas esféricas aplicadas a un caso particular que surge de una de nuestras condiciones iniciales.
@@ -79,7 +79,7 @@ Gracias a eso, podemos usar coordenadas cilindricas $(\rho, \theta, z)$ para des
 Una vez hecho esto, podremos obtener el Lagrangiano en coordenadas cilíndricas, sabiendo que $z$ es constante:
 
 \begin{equation}
-    \mathcal{L}({\rho},\dot{\rho},{\theta},\dot{\theta},t) = \mu\frac{\rho^2\dot{\theta}^2 + \dot{\rho}^2}{2} + \frac{G\mu(M_1 + M_2)}{\rho}
+    \mathcal{L}({\rho},\dot{\rho},{\theta},\dot{\theta},t) = \mu\frac{\rho^2\dot{\theta}^2 + \dot{\rho}^2}{2} +\frac{G\mu(M_1 + M_2)}{\rho}
 \end{equation}
 
 Notamos que efectivamente el sistema es reducido a uno de dos dimensiones. Ahora usando [las ecuaciones Euler-Lagrange](https://academia-lab.com/enciclopedia/ecuacion-de-euler-lagrange/) obtendremos las ecuaciones de movimiento que necesitamos:
@@ -124,3 +124,31 @@ Ahora buscamos $\ddot{\theta}$:
 \end{equation}
 
 Notamos que vamos a necesitar obtener el valor para $\rho,\  \dot{\rho}$ en nuestro programa. Esto lo haremos usando un *Método Simpléctico* de solución de ecuaciones diferenciales de segundo orden, el cual veremos [aquí](../orbital2).
+
+## Espera, ¿Qué?
+
+Hola de nuevo, cuánto tiempo. He estado escribiendo la tesis y peleándome con la burocracia de mi querida universidad (voy perdiendo) y quería ahondar en por qué decidimos usar métodos simplécticos ahora que tuve que ver eso durante la redacción de mi tesis
+
+### Qué es un método simpléctico
+
+Un método simpléctico de solución numérica de ecuaciones diferenciales es un método que permite simular la conservación de la energía. Entonces vamos a ver si se conserva la energía con nuestra propuesta de Lagrangiano. Recordando que nuestro Lagrangiano es
+
+\begin{equation}
+    \mathcal{L}({\rho},\dot{\rho},{\theta},\dot{\theta},t) = \mu\frac{\rho^2\dot{\theta}^2 + \dot{\rho}^2}{2} +\frac{G\mu(M_1 + M_2)}{\rho}
+\end{equation}
+
+Evaluamos el valor de la derivada temporal del Lagrangiano
+
+\begin{equation}
+    \frac{d\mathcal{L}({\rho},\dot{\rho},{\theta},\dot{\theta},t)}{dt} = \mu\frac{2 \rho \dot{\rho} \dot{\theta}^2 +2 \rho^2 \dot{\theta}\ddot{\theta} + 2 \dot{\rho}\ddot{\rho}}{2} - \dot{\rho} \frac{G\mu(M_1 + M_2)}{\rho^2}
+\end{equation}
+
+Usando ecuaciones Euler Lagrange esto nos devuelve
+
+\begin{align*}
+    \frac{d\mathcal{L}({\rho},\dot{\rho},{\theta},\dot{\theta},t)}{dt} &= \mu\frac{2  \dot{\rho} \frac{L^2}{\mu^2 \rho^3} +2 \frac{L}{\mu }\frac{-2L}{\mu \rho^3}\dot{\rho} + 2 \dot{\rho}\ddot{\rho}}{2} -\dot{\rho} \frac{G\mu(M_1 + M_2)}{\rho^2}\\
+    &= \mu\frac{2  \dot{\rho} \frac{L^2}{\mu^2 \rho^3} +2 \frac{L}{\mu }\frac{-2L}{\mu \rho^3}\dot{\rho} + 2 \dot{\rho}\left(\frac{L^2}{\mu^2\rho^3} -\frac{G(M_1 + M_2)}{\rho^2}\right)}{2} -\dot{\rho} \frac{G\mu(M_1 + M_2)}{\rho^2}\\  
+    &= -2\dot{\rho} \frac{G\mu(M_1 + M_2)}{\rho^2}\\  
+\end{align*}
+
+El cual es $0$ si manejamos órbitas circulares. Por tanto, considerando un **montón** de simplificaciones, sí tiene sentido el tratar con un sistema que modele la conservación de la energía
