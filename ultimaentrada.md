@@ -6,5 +6,3 @@ rss = "A short description of the page which would serve as **blurb** in a `RSS`
 
 tags = ["syntax", "code"]
 +++
-
-* [Aquí hablo del efecto Doppler](/../posts/theBindingofFisicaOndulatoria)
